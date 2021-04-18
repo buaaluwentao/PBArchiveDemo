@@ -17,6 +17,7 @@
 		558845D7262C5B9100C0B312 /* PBArchiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558845D6262C5B9100C0B312 /* PBArchiveDemoTests.m */; };
 		558845E2262C5B9100C0B312 /* PBArchiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558845E1262C5B9100C0B312 /* PBArchiveDemoUITests.m */; };
 		558845F7262C5BBB00C0B312 /* PBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 558845F6262C5BBB00C0B312 /* PBPerson.m */; };
+		558845FD262C65F400C0B312 /* PBFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 558845FC262C65F400C0B312 /* PBFamily.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		558845E3262C5B9100C0B312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558845F5262C5BBB00C0B312 /* PBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPerson.h; sourceTree = "<group>"; };
 		558845F6262C5BBB00C0B312 /* PBPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBPerson.m; sourceTree = "<group>"; };
+		558845FB262C65F400C0B312 /* PBFamily.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBFamily.h; sourceTree = "<group>"; };
+		558845FC262C65F400C0B312 /* PBFamily.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBFamily.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				558845CC262C5B9100C0B312 /* main.m */,
 				558845F5262C5BBB00C0B312 /* PBPerson.h */,
 				558845F6262C5BBB00C0B312 /* PBPerson.m */,
+				558845FB262C65F400C0B312 /* PBFamily.h */,
+				558845FC262C65F400C0B312 /* PBFamily.m */,
 			);
 			path = PBArchiveDemo;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				558845C2262C5B9000C0B312 /* ViewController.m in Sources */,
+				558845FD262C65F400C0B312 /* PBFamily.m in Sources */,
 				558845BC262C5B9000C0B312 /* AppDelegate.m in Sources */,
 				558845CD262C5B9100C0B312 /* main.m in Sources */,
 				558845F7262C5BBB00C0B312 /* PBPerson.m in Sources */,
